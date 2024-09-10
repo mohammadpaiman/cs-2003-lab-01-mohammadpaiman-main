@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
+            //hello
         // Read the number of elements
         int n = scanner.nextInt();
         BankAccount[] accounts = new BankAccount[n];
@@ -16,6 +16,8 @@ public class Main {
             int balance = scanner.nextInt();
             accounts[i] = new BankAccount(balance);
         }
+
+        //fjrifjrjf
 
         // Compute sum, product, min, and max using balances
         int sum = computeSum(accounts);
